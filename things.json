@@ -1,0 +1,101 @@
+[
+  {
+    "name": "تفاحة",
+    "category": "فاكهة",
+    "color": "أحمر",
+    "can_fly": false,
+    "lives_in_water": false,
+    "size": "صغير",
+    "has_fur": false
+  },
+  {
+    "name": "موزة",
+    "category": "فاكهة",
+    "color": "أصفر",
+    "can_fly": false,
+    "lives_in_water": false,
+    "size": "متوسط",
+    "has_fur": false
+  },
+  {
+    "name": "برتقالة",
+    "category": "فاكهة",
+    "color": "برتقالي",
+    "can_fly": false,
+    "lives_in_water": false,
+    "size": "متوسط",
+    "has_fur": false
+  },
+  {
+    "name": "خيار",
+    "category": "خضار",
+    "color": "أخضر",
+    "can_fly": false,
+    "lives_in_water": false,
+    "size": "متوسط",
+    "has_fur": false
+  },
+  {
+    "name": "جزرة",
+    "category": "خضار",
+    "color": "برتقالي",
+    "can_fly": false,
+    "lives_in_water": false,
+    "size": "صغير",
+    "has_fur": false
+  },
+  {
+    "name": "أسد",
+    "category": "حيوان",
+    "color": "بني",
+    "can_fly": false,
+    "lives_in_water": false,
+    "size": "كبير",
+    "has_fur": true
+  },
+  {
+    "name": "قطة",
+    "category": "حيوان",
+    "color": "أبيض",
+    "can_fly": false,
+    "lives_in_water": false,
+    "size": "صغير",
+    "has_fur": true
+  },
+  {
+    "name": "فيل",
+    "category": "حيوان",
+    "color": "رمادي",
+    "can_fly": false,
+    "lives_in_water": false,
+    "size": "كبير",
+    "has_fur": false
+  },
+  {
+    "name": "ببغاء",
+    "category": "طائر",
+    "color": "أخضر",
+    "can_fly": true,
+    "lives_in_water": false,
+    "size": "صغير",
+    "has_fur": false
+  },
+  {
+    "name": "بطة",
+    "category": "طائر",
+    "color": "أبيض",
+    "can_fly": true,
+    "lives_in_water": true,
+    "size": "متوسط",
+    "has_fur": false
+  },
+  {
+    "name": "سمكة",
+    "category": "حيوان",
+    "color": "فضي",
+    "can_fly": false,
+    "lives_in_water": true,
+    "size": "صغير",
+    "has_fur": false
+  }
+]

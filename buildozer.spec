@@ -2,6 +2,7 @@
 title = GuessGame - Ahmed Ali Eissa
 package.name = guessgame
 package.domain = org.ahmedali
+source.dir = .
 source.include_exts = py,json
 version = 1.0
 requirements = python3,kivy

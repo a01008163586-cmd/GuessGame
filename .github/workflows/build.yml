@@ -25,16 +25,23 @@ jobs:
           pip install --upgrade pip
           pip install "cython<3.0.0" buildozer
 
-            - name: Accept Android SDK Licenses
+      - name: Accept Android SDK Licenses & Install Build Tools
         run: |
           mkdir -p ~/.android
           touch ~/.android/repositories.cfg
-          # قبول كافة التراخيص المتاحة في الـ SDK
           yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
-          # تثبيت إصدار build-tools محدد يعمل باستقرار (34.0.0)
-          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "build-tools;34.0.0"
-          
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "build-tools;34.0.0" "platforms;android-33"
 
+      - name: Build APK
+        run: |
+          buildozer android debug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: GuessGame-APK
+          path: bin/*.apk
+          
       - name: Build APK
         run: |
           buildozer android debug
